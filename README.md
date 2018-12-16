@@ -3,7 +3,7 @@ Sparse Matrix - Simple implementation of Sparse Matrix Operations in C++.
 Purpose of this code is to show how Sparse Matrix Operations can be done efficiently without storing and carrying out all operations on zero terms.  
 
 
-Data Structure for Sparse matrix
+Data Structure for Sparse matrix.  
 Since there are lots of zeros, we only need to store nonzero elements. We can store each nonzero Element in a vector that describes the Matix   
 
 | ROW | COL | VAL |
