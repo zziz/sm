@@ -1,5 +1,6 @@
 # sm
 Sparse Matrix - Simple implementation of Sparse Matrix Operations in C++. 
+Purpose of this code is to show how Sparse Matrix Operations can be done efficiently without storing and carrying out all operations on zero terms.  
 
 
 Data Structure for Sparse matrix
