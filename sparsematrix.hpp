@@ -121,7 +121,7 @@ SparseMatrix<T> SparseMatrix<T>::operator*(const SparseMatrix& mat) const{
     return result;
 }
 
-// Problem doesn't require implementation of "+" operation. Including it for completeness.
+// Implementation of "+" operation. 
 template <typename T> 
 SparseMatrix<T> SparseMatrix<T>::operator+(const SparseMatrix& mat) const{
     if(this->m_rows != mat.cols() || this->m_cols != mat.rows())
@@ -161,7 +161,7 @@ SparseMatrix<T> SparseMatrix<T>::operator+(const SparseMatrix& mat) const{
     return result;
 }
 
-// Problem doesn't require implementation of "-" operation. Including it for completeness.
+// Implementation of "-" operation. 
 template <typename T> 
 SparseMatrix<T> SparseMatrix<T>::operator-(const SparseMatrix& mat) const{
     if(this->m_rows != mat.cols() || this->m_cols != mat.rows())
