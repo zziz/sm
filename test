@@ -1,0 +1,17 @@
+tn=1
+t() {
+    echo Examples $tn $@
+}
+pass() {
+    echo Examples $tn OK
+    tn=$(($tn+1))
+}
+fail() {
+    echo Examples $tn FAILED
+    exit 1
+}
+
+t program should run
+./examples >/dev/null 2>&1 && pass || fail
+
+echo ALL TESTS PASSED

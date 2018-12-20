@@ -175,8 +175,8 @@ int main(int argc, char * argv []){
         std::cout << "All tests passed!" << std::endl;   
     
     // text file test input 
-    std::ifstream m1("test/m1.txt");
-    std::ifstream m2("test/m2.txt");
+    std::ifstream m1("tests/m1.txt");
+    std::ifstream m2("tests/m2.txt");
     std::string line;
     
     std::vector<std::vector<int>> m1_vec;
